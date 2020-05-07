@@ -1,0 +1,16 @@
+.recette-du-jour {
+    color: white;
+
+    .icon {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+    .inner-flex-box {
+        display: flex;
+        justify-content: flex-start;
+        // align-items: flex-start;
+    }
+    .count {
+        font-weight: bold;
+    }
+}

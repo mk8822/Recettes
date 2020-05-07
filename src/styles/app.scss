@@ -1,0 +1,31 @@
+@import "@/styles/_colors.scss";
+
+body {
+  background: $bgColor;
+}
+#app {
+   font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  &.home {
+    height: 100vh;
+  }
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.subtitle {
+  font-size: 1.5em;
+  font-weight: 500;
+}
